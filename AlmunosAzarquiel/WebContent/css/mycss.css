@@ -26,9 +26,7 @@ select {
 	width: 900px;
 }
 
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-	background-color: #BACEEC;
- }
+
 
 .color-titulo-tabla {
 
@@ -40,5 +38,35 @@ select {
 	background-color: #869BBB;
 
 }
+
+.perfil-size {
+
+	width: 150px;
+	height: 150px;
+}
+
+
+
+.enlinea {
+	display: inline-block;
+}
+
+.overflow {
+
+	overflow:hidden;
+}
+
+.imgheader {
+	display:block;
+    margin:auto;
+}
+
+.card {
+
+	margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
 
 
