@@ -2,70 +2,59 @@
 
 .fondo {
 	background-color: #C9DEFD;
+	overflow: hidden;
 }
-select {
-  font-size: 20px !important;
+
+.misearch {
+	width: 400px;
 }
+
+.misearch .nav-item {
+	width: 90%;
+	max-width: 90% !important;
+}
+
+.miselect {
+	font-size: 18px;
+	width: 400px;
+	max-width: 80% !important;
+}
+
+.miselect option:nth-child(odd) {
+	background-color: #e6e6e6;
+}
+
+.miselect option:nth-child(even) {
+	background-color: #bcbcbc;
+}
+
 .text-30 {
 	font-size: 36px;
 }
 
-.width-half {
-
-	width:400px;
-}
-
-.width-container {
-
-	max-width: 1024px;
-	min-width: 1024px;
-}
-
-.navbar-width {
-
-	width: 900px;
-}
-
-
-
 .color-titulo-tabla {
-
 	background-color: #869BBB;
 }
 
 .footer-color {
-
 	background-color: #869BBB;
-
 }
-
-.perfil-size {
-
-	width: 150px;
-	height: 150px;
-}
-
-
 
 .enlinea {
 	display: inline-block;
 }
-
-.overflow {
-
-	overflow:hidden;
+.bold {
+	font-weight: bold;
 }
-
 .imgheader {
 	display:block;
-    margin:auto;
+    margin: 10px;
 }
 
 .card {
-
 	margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 
 
